@@ -18,6 +18,7 @@ img { width:100%; display:block; }
 .half:after, .clear_fix:after { display:block; content:''; clear:both; }
 
 .m_only { display: none; }
+.pc_only { display:block;}
 h2 { position:relative; font-size:100px; text-align:center; font-family:'Khand', sans-serif; z-index:10; }
 .white { color:#fff; }
 .cont_desc p { font-size:20px; line-height:36px;  letter-spacing:-0.06em; margin-bottom:36px;  }
@@ -109,6 +110,40 @@ header  .header_ham {  display:none; }
 
 
 
+/*    recruit    */
+#recruit { height:770px; background:#E7E7E7; }
+#recruit .outer { background:url('../images/recruit_bg.png') no-repeat center bottom/cover; }
+#recruit .cont_txt { border:1px solid red; padding: 58px 30px 0 0; }
+#recruit h2 { top:-12px; color:#434343; font-size:136px; text-align:right; padding-right:100px; }
+#recruit .cont_desc { border:1px solid blue; padding-right:170px;  margin-bottom:10px; }
+#recruit .cont_desc p { line-height:40px;  }
+#recruit .link { width:413px; color:#5c5f80;}
+#recruit .link:hover, #recruit .link:focus{ color:#43455c;}
+
+
+/*  footer  */
+footer { height:60px; background:#272727; }
+footer .footer_inner { display: table; width:100%; height:100%; padding:10px 29px;  }
+footer .footer_inner > div { display: table-cell; vertical-align:middle; width:calc(50vw - 180px) ;}
+
+footer .sns_area { overflow:hidden; border:1px solid yellow}
+footer .sns_area li { float:left; width:30px; height:30px; margin-right:10px; }
+footer .sns_area li a { }
+footer .sns_area li.sns_tw { background:rgba(0,0,0,1) url('../images/sns_tw.png') no-repeat center; }
+footer .sns_area li.sns_tw:hover {  }
+footer .sns_area li.sns_fb { background:rgba(0,0,0,1) url('../images/sns_fb.png') no-repeat center;  }
+footer .sns_area li.sns_fb:hover {  }
+footer .sns_area li.sns_yt { background:rgba(0,0,0,1) url('../images/sns_yt.png') no-repeat center; }
+footer .sns_area li.sns_yt:hover {  }
+
+.family_sites { border:1px solid green}
+
+.contact {  border:1px solid pink}
+
+
+
+
+
 
 
 /*********************반응형 **************************/
@@ -157,6 +192,23 @@ header  .header_ham {  display:none; }
 	#ir { padding: 7.2vw 0 7.9vw; }
 	#ir .inner { max-width:79.2vw;}
 
+	#ir .ir_list {  margin:3.75vw auto 4.86vw; }
+	#ir .ir_list li { border-width:0.2vw; font-size:1.4vw; }
+	#ir .ir_list li button { padding:1.25vw 0; }
+	
+	#ir .sub_list { margin-top:3.6vw; }
+	#ir .list_cont {  width:47vw; margin-left:8vw; }
+
+	#ir .sub_list li { margin-bottom:1vw;}
+	#ir .sub_list a { min-width:10.4vw;  border-width:0.21vw; padding: 0.56vw 1.04vw; font-size:1.05vw;  }
+
+	/*    recruit    */
+	#recruit { height:53.5vw; }
+	#recruit .cont_txt { padding: 4.03vw 2.1vw 0 0; }
+	#recruit h2 { top:-0.84px; font-size:9.5vw;  padding-right:7.2vw; }
+	#recruit .cont_desc {  padding-right:11vw;  margin-bottom:0.6vw; }
+	#recruit .cont_desc p { line-height:2.78vw;  }
+	#recruit .link { width:28.68vw; }
 
 }
 
@@ -185,6 +237,7 @@ header  .header_ham {  display:none; }
 	/*common*/
 	h2{ font-size:11.5vw; }
 	.m_only { display:block; }
+	.pc_only { display:none;}
 	.inner { padding:14.86vw 8.33vw 0; }
 	.half > * { float:none; width:auto; }
 	.cont_desc p { font-size:3.2vw; line-height:5.7vw; margin-bottom:5.7vw;  }
@@ -255,6 +308,30 @@ header  .header_ham {  display:none; }
 	#csr .outer { background:url('../images/csr_bg.jpg') no-repeat center bottom/contain; }
 	#csr .cont_txt{ position:static; width:100%; height:auto; }
 	#csr .cont_desc { padding:6.1vw 0 35.7vw; }
+
+	/*  #ir  */
+	#ir { padding: 16.67vw 0; }
+	#ir .ir_list_wrap { }
+	#ir .inner { max-width:100vw;  padding: 3vw 2vw 0;}
+	#ir .ir_list {  margin:1vw auto 1vw; }
+	#ir .ir_list li { border-width:0.35vw; font-size:3vw; }
+
+	#ir .sub_list { float:none; margin-top:0; }
+	#ir .list_cont {  float:none; width:100%; margin-left:0; }
+
+	#ir .sub_list ul { text-align:center;}
+	#ir .sub_list li { display:inline-block; margin-bottom:5vw; width:26.4vw; }
+	#ir .sub_list a { width:25vw;  border-width:0.4vw; padding: 2vw 0; font-size:2.6vw; }
+	#ir .sub_list li:hover a, #ir .sub_list li.active a { color:#fff; border-color:#fff; }
+
+	/*    recruit    */
+	#recruit { height:auto; }
+	#recruit .cont_txt { padding:0; }
+	#recruit h2 { top:0; font-size:12.5vw;  text-align:center; padding-right:0; }
+	#recruit .cont_desc {  padding-right:0;  margin:2vw 0 0; }
+	#recruit .cont_desc p { line-height:6vw;  }
+	#recruit .link { display: block; margin: 0 auto; width:28.68vw; text-align: center; }
+
 }
 
 
